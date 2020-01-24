@@ -1,6 +1,14 @@
 package basicjava;
 
+/**
+ * Course : COMP 127 - S20
+ * Author : Yijie Guo
+ * File: BasicStuff.java
+ * This program contains Class Activity 1.
+ */
+
 public class BasicStuff {
+
     public static void main (String[] args) {
         int age0 = 18;
         int age1 = 19;
