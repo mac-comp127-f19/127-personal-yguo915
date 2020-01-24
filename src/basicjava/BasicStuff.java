@@ -10,8 +10,9 @@ package basicjava;
 public class BasicStuff {
 
     public static void main (String[] args) {
-        int age0 = 18;
-        int age1 = 19;
+        int age0, age1;
+        age0 = 18;
+        age1 = 19;
         System.out.println("We are " + age0 + " and " + age1 + " years old!");
 
         int sumOfAges = age0 + age1;
