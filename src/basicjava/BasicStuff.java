@@ -7,8 +7,8 @@ public class BasicStuff {
         System.out.println("We are " + age0 + " and " + age1 + " years old!");
 
         int sumOfAges = age0 + age1;
-        System.out.println("The sum of our ages is "+ sumOfAges);
-        System.out.println("The sum of our ages is "+ Math.addExact(age0, age1));
+        System.out.println("The sum of our ages is "+ sumOfAges + ".");
+        System.out.println("The sum of our ages is "+ Math.addExact(age0, age1) + ".");
 
         System.out.println(6/3);
         System.out.println(6/4);
@@ -16,6 +16,7 @@ public class BasicStuff {
 
         System.out.println(Integer.MAX_VALUE);
         System.out.println(Integer.MIN_VALUE);
+        System.out.println(Integer.MIN_VALUE -1);
 
        /*  Computes the number of weeks, days, and hours in 1600 hours. */
         int numOfHours = 1600;
