@@ -20,12 +20,12 @@ public class BasicStuff {
         System.out.println("The sum of our ages is "+ Math.addExact(age0, age1) + ".");
 
         System.out.println(6/3);
-        System.out.println(6/4);
+        System.out.println(6/4); // Because both 6 and 4 are integers, so Java assume the datatype of the answer is also integer.
         System.out.println(6.0/4);
 
         System.out.println(Integer.MAX_VALUE);
-        System.out.println(Integer.MIN_VALUE);
-        System.out.println(Integer.MIN_VALUE -1);
+        System.out.println(Integer.MIN_VALUE); // The lowest possible integer Java can process?
+        System.out.println(Integer.MIN_VALUE -1); // It goes out of bound and goes back to the max values?
 
        /*  Computes the number of weeks, days, and hours in 1600 hours. */
         int numOfHours = 1600;
@@ -40,6 +40,8 @@ public class BasicStuff {
         V = ( 1.0 / 3 ) * Math.PI * Math.pow(r, 2) * h;
         A = Math.PI * Math.pow(r, 2) + Math.PI * r * Math.sqrt(Math.pow(r, 2) + Math.pow(h, 2));
         System.out.println("The surface area of the cone is " + A + ", the volume of the cone is " + V +".");
+
+        System.out.println(Long.MAX_VALUE);
 
         }
 }
