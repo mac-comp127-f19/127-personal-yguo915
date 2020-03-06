@@ -16,7 +16,6 @@ public class RandomWalk {
 
     /**
      * Creates a new random walk starting with some initial value.
-     * TODO: Adjust this constructor to take an initial value for the walk.
      */
     public RandomWalk(int walkValue, int inputMax, int inputMin) {
         rng = new Random();
@@ -26,7 +25,6 @@ public class RandomWalk {
     }
 
     /**
-     * TODO Complete me.
      * @return the current value for the random walk.
      */
     public int getValue() {
@@ -35,7 +33,6 @@ public class RandomWalk {
 
     /**
      * Updates the value randomly by adding either +1 or -1.
-     * TODO: Complete me.
      * @return Updated value.
      */
     public int advanceValue() {

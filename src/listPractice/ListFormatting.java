@@ -19,6 +19,7 @@ public class ListFormatting {
      *       happens if you move it inside?)
      */
     public static List<String> numberEachItem(List<String> items) {
+
         List<String> newList = new ArrayList<>();
         int n = 1;
         for (String item:items){
@@ -104,6 +105,7 @@ public class ListFormatting {
                 formatedList += "and ";
             }
             formatedList+= items.get(i);
+
 
         }
         return formatedList;
